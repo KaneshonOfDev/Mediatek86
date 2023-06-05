@@ -78,14 +78,14 @@ namespace MediaTek86.views
             this.endDateLabel.TabIndex = 32;
             this.endDateLabel.Text = "Date de fin :";
 
-            // Service Label
+            // Motif Label
             this.motifLabel.AutoSize = true;
             this.motifLabel.Font =new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
             this.motifLabel.Location = new System.Drawing.Point(25, 125);
             this.motifLabel.Name = "motifLabel";
             this.motifLabel.Size = new System.Drawing.Size(100, 20);
             this.motifLabel.TabIndex = 23;
-            this.motifLabel.Text = "Service :";
+            this.motifLabel.Text = "Motif :";
 
             // Service Cb
             this.motifCb.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
@@ -94,6 +94,7 @@ namespace MediaTek86.views
             this.motifCb.Name = "motifCb";
             this.motifCb.Size = new System.Drawing.Size(125, 20);
             this.motifCb.TabIndex = 5;
+            this.motifCb.DisplayMember = "libelle";
 
             // First Name Text
             this.firstNameText.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);

@@ -94,6 +94,7 @@
             this.motifCb.Name = "motifCb";
             this.motifCb.Size = new System.Drawing.Size(150, 20);
             this.motifCb.TabIndex = 3;
+            this.motifCb.DisplayMember = "libelle";
 
             // First Name Text
             this.firstNameText.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);

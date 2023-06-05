@@ -93,7 +93,8 @@ namespace MediaTek86.views
             this.serviceCb.Location = new System.Drawing.Point(125, 125);
             this.serviceCb.Name = "serviceCb";
             this.serviceCb.Size = new System.Drawing.Size(125, 20);
-            this.serviceCb.TabIndex = 5;
+            this.serviceCb.TabIndex = 9;
+            this.serviceCb.DisplayMember = "nom";
 
             // First Name Text
             this.firstNameText.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);

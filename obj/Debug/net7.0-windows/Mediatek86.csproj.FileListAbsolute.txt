@@ -26,3 +26,8 @@ E:\CNED\PROJET\Mediatek86\obj\Debug\net7.0-windows\refint\Mediatek86.dll
 E:\CNED\PROJET\Mediatek86\obj\Debug\net7.0-windows\Mediatek86.pdb
 E:\CNED\PROJET\Mediatek86\obj\Debug\net7.0-windows\Mediatek86.genruntimeconfig.cache
 E:\CNED\PROJET\Mediatek86\obj\Debug\net7.0-windows\ref\Mediatek86.dll
+E:\CNED\PROJET\Mediatek86\bin\Debug\net7.0-windows\log4net.dll
+E:\CNED\PROJET\Mediatek86\bin\Debug\net7.0-windows\Serilog.dll
+E:\CNED\PROJET\Mediatek86\bin\Debug\net7.0-windows\MediaTek86.dll.config
+E:\CNED\PROJET\Mediatek86\bin\Debug\net7.0-windows\Serilog.Sinks.Console.dll
+E:\CNED\PROJET\Mediatek86\bin\Debug\net7.0-windows\Serilog.Sinks.File.dll

@@ -86,7 +86,8 @@
             this.serviceLabel.Size = new System.Drawing.Size(100, 20);
             this.serviceLabel.TabIndex = 23;
             this.serviceLabel.Text = "Service :";
-
+            this.serviceCb.DisplayMember = "nom";
+            
             // Service Cb
             this.serviceCb.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
             this.serviceCb.FormattingEnabled = true;

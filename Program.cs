@@ -2,6 +2,7 @@ namespace MediaTek86;
 using System;
 using System.Windows.Forms;
 using MediaTek86.views;
+using Serilog;
 
 static class Program
 {
@@ -11,6 +12,16 @@ static class Program
         Application.EnableVisualStyles();
         Application.SetCompatibleTextRenderingDefault(false);
         ApplicationConfiguration.Initialize();
-        Application.Run(new StaffListForm()); // view
+
+        Log.Logger = new LoggerConfiguration()
+        .MinimumLevel.Debug()
+        .Enrich.FromLogContext()
+        .WriteTo.Console()
+        .WriteTo.File("log.txt", rollingInterval: RollingInterval.Day)
+        .CreateLogger();
+
+        Application.Run(new ConnectForm()); // view
+
+        Log.CloseAndFlush();
     }    
 }
