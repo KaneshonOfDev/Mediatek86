@@ -66,6 +66,7 @@
             this.button.TabIndex = 3;
             this.button.Text = "Se Connecter";
             this.button.UseVisualStyleBackColor = true;
+            this.button.Click += new System.EventHandler(this.handleLogin);
 
             // Form
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);

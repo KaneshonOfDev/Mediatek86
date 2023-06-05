@@ -20,7 +20,7 @@ static class Program
         .WriteTo.File("log.txt", rollingInterval: RollingInterval.Day)
         .CreateLogger();
 
-        Application.Run(new ConnectForm()); // view
+        Application.Run(new ConnectForm());
 
         Log.CloseAndFlush();
     }    
