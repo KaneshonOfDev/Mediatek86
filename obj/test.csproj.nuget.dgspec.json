@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\CNED\\PROJET\\Mediatek86\\MediaTek86.csproj": {}
+    "E:\\CNED\\PROJET\\Mediatek86\\test\\test.csproj": {}
   },
   "projects": {
-    "E:\\CNED\\PROJET\\Mediatek86\\MediaTek86.csproj": {
+    "E:\\CNED\\PROJET\\Mediatek86\\test\\test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\CNED\\PROJET\\Mediatek86\\MediaTek86.csproj",
-        "projectName": "MediaTek86",
-        "projectPath": "E:\\CNED\\PROJET\\Mediatek86\\MediaTek86.csproj",
+        "projectUniqueName": "E:\\CNED\\PROJET\\Mediatek86\\test\\test.csproj",
+        "projectName": "test",
+        "projectPath": "E:\\CNED\\PROJET\\Mediatek86\\test\\test.csproj",
         "packagesPath": "C:\\Users\\chauv\\.nuget\\packages\\",
-        "outputPath": "E:\\CNED\\PROJET\\Mediatek86\\obj\\",
+        "outputPath": "E:\\CNED\\PROJET\\Mediatek86\\test\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\chauv\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -37,12 +37,6 @@
       "frameworks": {
         "net7.0-windows7.0": {
           "targetAlias": "net7.0-windows",
-          "dependencies": {
-            "MySql.Data": {
-              "target": "Package",
-              "version": "[8.0.33, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
