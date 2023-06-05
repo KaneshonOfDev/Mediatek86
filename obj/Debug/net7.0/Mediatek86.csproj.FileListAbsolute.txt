@@ -1,0 +1,15 @@
+E:\CNED\PROJET\Mediatek86\bin\Debug\net7.0\Mediatek86.exe
+E:\CNED\PROJET\Mediatek86\bin\Debug\net7.0\Mediatek86.deps.json
+E:\CNED\PROJET\Mediatek86\bin\Debug\net7.0\Mediatek86.runtimeconfig.json
+E:\CNED\PROJET\Mediatek86\bin\Debug\net7.0\Mediatek86.dll
+E:\CNED\PROJET\Mediatek86\bin\Debug\net7.0\Mediatek86.pdb
+E:\CNED\PROJET\Mediatek86\obj\Debug\net7.0\Mediatek86.csproj.AssemblyReference.cache
+E:\CNED\PROJET\Mediatek86\obj\Debug\net7.0\Mediatek86.GeneratedMSBuildEditorConfig.editorconfig
+E:\CNED\PROJET\Mediatek86\obj\Debug\net7.0\Mediatek86.AssemblyInfoInputs.cache
+E:\CNED\PROJET\Mediatek86\obj\Debug\net7.0\Mediatek86.AssemblyInfo.cs
+E:\CNED\PROJET\Mediatek86\obj\Debug\net7.0\Mediatek86.csproj.CoreCompileInputs.cache
+E:\CNED\PROJET\Mediatek86\obj\Debug\net7.0\Mediatek86.dll
+E:\CNED\PROJET\Mediatek86\obj\Debug\net7.0\refint\Mediatek86.dll
+E:\CNED\PROJET\Mediatek86\obj\Debug\net7.0\Mediatek86.pdb
+E:\CNED\PROJET\Mediatek86\obj\Debug\net7.0\Mediatek86.genruntimeconfig.cache
+E:\CNED\PROJET\Mediatek86\obj\Debug\net7.0\ref\Mediatek86.dll
