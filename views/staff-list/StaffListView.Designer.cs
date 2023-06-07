@@ -54,8 +54,9 @@
             this.buttonAdd.Name = "buttonAdd";
             this.buttonAdd.Size = new System.Drawing.Size(200, 20);
             this.buttonAdd.TabIndex = 4;
-            this.buttonAdd.Text = "Ajouter";
+            this.buttonAdd.Text = "Ajouter un personnel";
             this.buttonAdd.UseVisualStyleBackColor = true;
+            this.buttonAdd.Click += new System.EventHandler(this.handleClickAdd);
 
             // Button Edit
             this.buttonEdit.Location = new System.Drawing.Point(25, 325);
@@ -64,6 +65,7 @@
             this.buttonEdit.TabIndex = 2;
             this.buttonEdit.Text = "Modifier le personnel";
             this.buttonEdit.UseVisualStyleBackColor = true;
+            this.buttonEdit.Click += new System.EventHandler(this.handleEdit);
 
             // Button Delete
             this.buttonDelete.Location = new System.Drawing.Point(275, 300);
@@ -72,6 +74,7 @@
             this.buttonDelete.TabIndex = 1;
             this.buttonDelete.Text = "Supprimer du personnel";
             this.buttonDelete.UseVisualStyleBackColor = true;
+            this.buttonDelete.Click += new System.EventHandler(this.handleDelete);
 
             // Button Manage Absence
             this.buttonManageAbsence.Location = new System.Drawing.Point(275, 325);
@@ -80,6 +83,7 @@
             this.buttonManageAbsence.TabIndex = 3;
             this.buttonManageAbsence.Text = "Gérer les absences";
             this.buttonManageAbsence.UseVisualStyleBackColor = true;
+            this.buttonManageAbsence.Click += new System.EventHandler(this.handleManageAbsences);
             
             // Form
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);

@@ -34,5 +34,29 @@ namespace MediaTek86.models
         public int IdService { get => idservice; }
 
         public string Service { get => service; }
+
+        public void SetNom(string nom) {
+            this.nom = nom;
+        }
+
+        public void SetPrenom(string prenom) {
+            this.prenom = prenom;
+        }
+
+        public void SetTel(string tel) {
+            this.tel = tel;
+        }
+
+        public void SetEmail(string mail) {
+            this.mail = mail;
+        }
+
+        public void SetServiceId(int serviceId) {
+            this.idservice = serviceId;
+        }
+
+        public void SetService(string serviceName) {
+            this.service = serviceName;
+        }
     }
 }

@@ -7,7 +7,7 @@ namespace MediaTek86.dal {
         public ServicesService () {}
 
         public List<Service> GetAllServices() {
-            string req = "select * from service order by nom";
+            string req = "SELECT * FROM service ORDER BY idservice;";
             List<object[]> records = this.GetBddManager().ReqSelect(req, null);
             List<Service> services = new List<Service>();
             Log.Debug("Records.GetAllServices = {0}", records);

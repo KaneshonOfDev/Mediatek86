@@ -131,14 +131,16 @@ namespace MediaTek86.views
             this.buttonCancel.TabIndex = 5;
             this.buttonCancel.Text = "Annuler";
             this.buttonCancel.UseVisualStyleBackColor = true;
+            this.buttonCancel.Click += new System.EventHandler(this.handleCancel);
 
-            // Button Save
+            // Button Add
             this.buttonAdd.Location = new System.Drawing.Point(150, 180);
             this.buttonAdd.Name = "buttonAdd";
             this.buttonAdd.Size = new System.Drawing.Size(100, 20);
             this.buttonAdd.TabIndex = 4;
             this.buttonAdd.Text = "Ajouter";
             this.buttonAdd.UseVisualStyleBackColor = true;
+            this.buttonAdd.Click += new System.EventHandler(this.handleAddStaff);
 
             // Form
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);

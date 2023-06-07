@@ -7,7 +7,7 @@ namespace MediaTek86.dal {
         public MotifsService () {}
 
         public List<Motif> GetAllMotifs() {
-            string req = "select * from motif order by libelle";
+            string req = "SELECT * FROM motif ORDER BY libelle;";
             List<object[]> records = this.GetBddManager().ReqSelect(req, null);
             List<Motif> motifs = new List<Motif>();
             Log.Debug("Records.GetAllMotifs = {0}", records);

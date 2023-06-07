@@ -131,6 +131,7 @@
             this.buttonCancel.TabIndex = 5;
             this.buttonCancel.Text = "Annuler";
             this.buttonCancel.UseVisualStyleBackColor = true;
+            this.buttonCancel.Click += new System.EventHandler(this.handleCancel);
 
             // Button Save
             this.buttonSave.Location = new System.Drawing.Point(150, 180);
@@ -139,6 +140,7 @@
             this.buttonSave.TabIndex = 4;
             this.buttonSave.Text = "Enregistrer";
             this.buttonSave.UseVisualStyleBackColor = true;
+            this.buttonSave.Click += new System.EventHandler(this.handleEditStaff);
 
             // Form
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
